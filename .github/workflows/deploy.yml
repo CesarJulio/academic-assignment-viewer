@@ -13,6 +13,8 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: pip install pandas openpyxl
+      - name: Extract Data from Excel
+        run: python extract_data.py
       - name: Generate HTML
         run: python build_app.py
       - name: Rename HTML to index.html
