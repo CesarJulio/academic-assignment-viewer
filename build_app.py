@@ -2,8 +2,8 @@ import json
 import os
 
 # Paths
-json_path = r'c:/Users/USER/Documents/ANTIGRAVITY/ASIGNACION LUIS CARLOS/data.json'
-html_path = r'c:/Users/USER/Documents/ANTIGRAVITY/ASIGNACION LUIS CARLOS/visor_asignacion.html'
+json_path = 'data.json'
+html_path = 'visor_asignacion.html'
 
 def generate_html():
     try:

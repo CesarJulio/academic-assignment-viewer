@@ -2,8 +2,8 @@ import pandas as pd
 import json
 
 # Input and Output paths
-input_file = r'c:/Users/USER/Documents/ANTIGRAVITY/ASIGNACION LUIS CARLOS/Asignacion LUIS CARLOS.xlsx'
-output_file = r'c:/Users/USER/Documents/ANTIGRAVITY/ASIGNACION LUIS CARLOS/data.json'
+input_file = 'Asignacion LUIS CARLOS.xlsx'
+output_file = 'data.json'
 
 try:
     # Read Excel file
